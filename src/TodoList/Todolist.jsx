@@ -46,12 +46,11 @@ function Todolist() {
     }).catch(error => {
       console.error('Error updating and refreshing todo:', error);
     });
-    toast.success('My ToDos Completed Successfully !',);
   };
 
   return (
     <>
-      <h2 style={{color: 'white',textAlign:"center"}}> My ToDos</h2>
+      <h2 style={{color: 'white'}}> My ToDos</h2>
 
       <Form style={{ color: 'white', backgroundColor: 'black', borderColor:"white" ,  padding: '20px', textAlign: 'center',borderRadius:"10px"  }} onSubmit={handleSubmit}>
         <div style={{}} >
